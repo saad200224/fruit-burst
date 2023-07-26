@@ -50,7 +50,7 @@
       <!-- nav bar -->
       
       <nav>
-          <div class="navbar min-h-[120px] bg-white lg:bg-bg-primary rounded-[600px] my-14 flex flex-row-reverse lg:flex-row items-center">
+          <div class="navbar min-h-[120px] bg-white lg:bg-bg-primary rounded-[600px] my-14 flex justify-between flex-row-reverse lg:flex-row items-center">
             <div class="navbar-start">
               <!-- menu for large device -->
               <div class="hidden lg:block">
@@ -63,17 +63,18 @@
               </div>
 
               <!-- menu for small device -->
-              <div class="dropdown lg:hidden">
+              <div class="flex flex-1 justify-end dropdown lg:hidden">
                 <label tabindex="0" class="btn btn-ghost btn-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
+                <ul tabindex="0" class="menu menu-sm  dropdown-content mt-12 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
                   <li><a>All Fruits</a></li>
                 </ul>
               </div>
+
             </div>
 
             <div class="navbar-center gap-4">
